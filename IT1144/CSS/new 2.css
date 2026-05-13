@@ -1,0 +1,12 @@
+body {
+	background-color: pink;
+}
+table {
+	background-color:yellow; font-size:40px;
+}
+tr {
+	color:red;
+}
+th{
+	color:green;
+}

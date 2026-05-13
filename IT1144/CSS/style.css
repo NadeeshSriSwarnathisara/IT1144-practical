@@ -1,0 +1,65 @@
+.art{background-color: #1E3A8A;
+	text-align:center;
+	color: #F9FAFB;
+	padding:5px;
+}
+.about {
+ margin:100px;
+  border:  2px solid black;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+border-radius: 8px;
+background-color:rgba(255,255,255,0.9);
+}
+h1{color:#1E3A8A;
+}
+
+p,h1{margin:20px;}
+
+.mission {
+margin:100px;
+  border:  2px solid black;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+border-radius: 8px;
+background-color:rgba(255,255,255,0.9);
+}
+
+.vision {
+ margin:100px;
+   border:  2px solid black;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+border-radius: 8px;
+background-color:rgba(255,255,255,0.9);
+}
+body{
+	background-color:#F1F5F9;
+}
+button{
+	padding:15px;
+	border-radius: 8px;
+	 color: #F9FAFB;
+	background-color: #1E3A8A;
+}
+.art{background-color: #1E3A8A;
+	text-align:center;
+	color: #F9FAFB;
+	padding:5px;
+}
+footer{background-color: #1E3A8A;
+	text-align:center;
+	color: #F9FAFB;
+	padding:10px;
+}
+
+.artwork1 {
+margin:100px;
+  border:  2px solid black;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+border-radius: 8px;
+background-color:rgba(255,255,255,0.9);
+}
+.artwork2 {margin:100px;
+  border:  2px solid black;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+border-radius: 8px;
+background-color:rgba(255,255,255,0.9);
+}
