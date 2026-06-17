@@ -1,0 +1,95 @@
+<html>
+
+  <head>
+    
+    <title>About</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-content">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a href="index.html" class="brand-link">
+            <img src="logo.png" alt="CoffeeShop logo" class="logo">
+            <h1 class="brand">CoffeeShop</h1>
+          </a>
+          <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+          <button id="cart-btn" class="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+        </div>
+      </header>
+      <main class="about-page">
+        <section class="about-hero">
+          <div class="container about-hero-content">
+            <h2>Welcome to CoffeeShop</h2>
+            <p>At CoffeeShop, we’re your friendly neighborhood cafe—a warm place to pause, connect, and enjoy coffee made with real care. Whether you’re here for a quick morning cup, a catch-up with friends, or a quiet break, we want every visit to feel easy and genuine.</p>
+          </div>
+        </section>
+        <section class="container about-details">
+          <div class="about-left">
+            <div class="about-info">
+              
+          <div class="about-image">
+            <img src="Unknown1.jpg" alt="Cozy CoffeeShop interior" />
+          </div>
+        </section>
+      </main>
+      <div id="cart-modal" class="cart-modal hidden">
+        <div class="cart-panel">
+          <header class="cart-header">
+            <h4>Your Cart</h4>
+            <button id="close-cart" class="close">Close</button>
+          </header>
+          <div id="cart-items" class="cart-items"></div>
+          <div id="payment-form" class="payment-form hidden">
+            <h5>Payment details</h5>
+            <div class="payment-field">
+              <label for="card-name">Cardholder name</label>
+              <input id="card-name" type="text" placeholder="Your name" />
+            </div>
+            <div class="payment-field">
+              <label for="customer-address">Delivery address</label>
+              <input id="customer-address" type="text" placeholder="Street, city, zip" />
+            </div>
+            <div class="payment-field">
+              <label for="card-number">Card number</label>
+              <input id="card-number" type="text" placeholder="1234 5678 9012 3456" maxlength="19" />
+            </div>
+            <div class="payment-row">
+              <div class="payment-field small">
+                <label for="card-expiry">Expiry</label>
+                <input id="card-expiry" type="text" placeholder="MM/YY" maxlength="5" />
+              </div>
+              <div class="payment-field small">
+                <label for="card-cvv">CVV</label>
+                <input id="card-cvv" type="text" placeholder="123" maxlength="4" />
+              </div>
+            </div>
+          </div>
+          <div class="cart-footer">
+            <div class="totals">Total: Rs <span id="cart-total">0.00</span></div>
+            <div class="cart-buttons">
+              <button id="clear-cart" class="btn clear-btn">Clear</button>
+              <button id="checkout" class="btn checkout-btn">Checkout</button>
+              <button id="pay-btn" class="btn pay-btn hidden">Pay Rs 0.00</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div>
+            <h4>Contact</h4>
+            <p>Email: nadeeshsri2005swarnathisara@gmail.com</p>
+            <p>Phone: 0763929154</p>
+          </div>
+        
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
